@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                 outfile: "myfile.mp3"
             },
             "metadata-inject": {
-                infile: "myfile.mp4",
+                infile: "myfile.mp3",
                 outfile: "myfile.mp3",
                 title: "Grunt Made This!"
             }

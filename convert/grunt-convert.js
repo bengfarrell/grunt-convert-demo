@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                 break;
 
             case "metadata-inject":
-                ffmpeg.exec(["-i", this.data.infile, "-y", "-metadata", "title=" + this.data.title, this.data.outfile],
+                ffmpeg.exec(["-i", this.data.infile, "-y", "-acodec", 'copy', "-metadata", "title=" + this.data.title, this.data.outfile],
                     function() {
                         done.apply();
                     });
