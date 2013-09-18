@@ -1,0 +1,14 @@
+{
+    "name": "SampleVideoTask",
+    "description": "Sample Grunt Task to Convert Video",
+    "author": "Ben Farrell <ben@benfarrell.com>",
+    "version": "0.0.1",
+    "systemdependencies": "ffmpeg, lamemp3lib",
+    "dependencies": {
+        "grunt": "~0.4.0",
+        "grunt-curl": "~1.1.1",
+        "grunt-contrib-clean": "~0.4.0",
+        "ffmpeg-node": "0.0.x"
+    },
+    "engine": "node >= 0.10.x"
+}
